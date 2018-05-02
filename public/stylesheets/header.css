@@ -1,0 +1,31 @@
+.header {
+	margin: 0 auto;
+	width: 100%;
+	padding: 1em 2em;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: linear-gradient(45deg, #448AFF, #2979FF, #2962FF, #3D5AFE,#304FFE);
+	box-shadow: 0 0 5px rgba(0,0,0,.5);
+	z-index: 100;
+}
+
+.header h1 {	
+	font-size: 1.3em;
+	background-color: #fff;
+	margin: 0;
+	padding: .3em .5em;
+	border-radius: .3em;
+	text-align: left;
+	color: #448AFF;
+	display: inline-block;
+	box-shadow: 0 0 5px rgba(0,0,0,.5);
+}
+
+@media all and (min-width: 900px) {
+
+	.header {
+		padding: 1em 14em;
+	}
+
+}
