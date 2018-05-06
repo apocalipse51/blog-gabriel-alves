@@ -1,6 +1,10 @@
 * {
 	box-sizing: border-box;
-	font-family: 'Source Sans Pro', "Helvetica Neue", "Arial Narrow", sans-serif;	
+	font-family: 'Source Sans Pro', "Helvetica Neue", "Arial Narrow", sans-serif;
+}
+
+.clear {
+	clear: both;
 }
 
 body {

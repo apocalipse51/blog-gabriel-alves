@@ -22,7 +22,7 @@
 	box-shadow: 0 0 5px rgba(0,0,0,.5);
 }
 
-@media all and (min-width: 900px) {
+@media all and (min-width: 1080px) {
 
 	.header {
 		padding: 1em 14em;
@@ -30,7 +30,7 @@
 
 }
 
-@media all and (max-width: 899px) {
+@media all and (max-width: 1079px) {
 
 	.header h1 {
 		font-size: 1.4em;

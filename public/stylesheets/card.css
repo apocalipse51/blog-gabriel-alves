@@ -1,0 +1,36 @@
+.card {
+  width: 100%;
+  padding: 1em;
+  position: relative;
+  margin: .5em 0;
+}
+
+.card-title {
+  width: 100%;  
+}
+
+.card-title .title,
+.card-title .date {
+  margin: 0;
+  padding: 0;
+}
+
+.card-title .title {
+  float: left;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.card-title .date {
+  float: right;
+  font-size: 1.2em;
+}
+
+.card-body {
+  width: 100%;
+}
+
+.card-body p {
+  text-align: justify;
+  font-family: 1em;
+}
